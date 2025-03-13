@@ -12,15 +12,34 @@
         );
       "
     >
-      <EmpresaTimeline
-        v-for="(dato, i) in data"
-        :id="i"
-        :datos="dato"
-      ></EmpresaTimeline>
+      <header>
+        <meta
+          name="description"
+          content="Conozca la historia de Roda Service desde sus inicios en 1960 hasta la actualidad."
+        />
+      </header>
+      <main>
+        <section>
+          <EmpresaTimeline
+            v-for="(dato, i) in data"
+            :key="i"
+            :id="i"
+            :datos="dato"
+          ></EmpresaTimeline>
+        </section>
+      </main>
     </div>
   </div>
 </template>
 <script setup>
+useSeoMeta({
+  title: "Historia de Roda Service",
+  description:
+    "Conozca la historia de Roda Service desde sus inicios en 1960 hasta la actualidad.",
+  keywords:
+    "Roda Service, historia, rodamientos, importación, distribución, marcas, NTN-SNR, AYS FERSA, NSK, ARB, HCH, IKO, MBS, ROLLWAY, CMB, RLM, KG, KOYO",
+});
+
 const data = [
   {
     year: "1960",

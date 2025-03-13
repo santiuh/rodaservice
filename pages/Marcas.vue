@@ -151,6 +151,34 @@
 <script setup>
 const selectedMarcaId = ref(0);
 
+useHead({
+  title: "Marcas - Roda Service",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Descubre las marcas que distribuimos en Roda Service, incluyendo DBH, ETMA, FERSA, HCH, IKO, KOYO, KUGELL, LOCTITE, MBS, NACHI, NSK, NTN, PESARO, ROLLWAY, y VAR-NTN.",
+    },
+    {
+      name: "keywords",
+      content:
+        "marcas, DBH, ETMA, FERSA, HCH, IKO, KOYO, KUGELL, LOCTITE, MBS, NACHI, NSK, NTN, PESARO, ROLLWAY, VAR-NTN, Roda Service, rodamientos, autopartes",
+    },
+    { name: "author", content: "Roda Service" },
+    { property: "og:title", content: "Marcas - Roda Service" },
+    {
+      property: "og:description",
+      content: "Descubre las marcas que distribuimos en Roda Service.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://www.rodaservice.com/marcas" },
+    {
+      property: "og:image",
+      content: "https://www.rodaservice.com/img/og-image.jpg",
+    },
+  ],
+});
+
 const abrirPDF = (nombreArchivo) => {
   const url = `/docs/${nombreArchivo}`; // Ruta del archivo en `public/`
   window.open(url, "_blank"); // Abre en una nueva ventana/pestaña

@@ -11,6 +11,22 @@
   </div>
 </template>
 <script setup>
+useHead({
+  title: "Productos Industriales - Roda",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Descubre nuestra amplia gama de productos industriales, incluyendo rodamientos, bolas de acero, y más.",
+    },
+    {
+      name: "keywords",
+      content:
+        "productos industriales, rodamientos, bolas de acero, rodamientos de agujas, rodamientos de rodillos",
+    },
+  ],
+});
+
 const productos = [
   {
     texto: "Bolas de acero milimetricas y en pulgadas",

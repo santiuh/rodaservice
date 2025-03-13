@@ -11,6 +11,22 @@
   </div>
 </template>
 <script setup>
+useSeoMeta({
+  title: "Productos - Roda",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Descubre nuestra amplia gama de productos automotrices, incluyendo crapodinas, ejes de bombas de agua, grasas y lubricantes, y mucho más.",
+    },
+    {
+      name: "keywords",
+      content:
+        "productos automotrices, crapodinas, ejes de bombas de agua, grasas, lubricantes, rodamientos, tensores",
+    },
+  ],
+});
+
 const productos = [
   { texto: "Crapodinas de punta de eje", imagen: "Automotor1.png" },
   { texto: "Crapodinas de embrague", imagen: "Automotor2.png" },

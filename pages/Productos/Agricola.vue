@@ -10,7 +10,24 @@
     </div>
   </div>
 </template>
+
 <script setup>
+useSeoMeta({
+  title: "Productos Agrícolas - Roda",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Descubre nuestra amplia gama de productos agrícolas, incluyendo rodamientos, rótulas y soportes de alta calidad.",
+    },
+    {
+      name: "keywords",
+      content:
+        "productos agrícolas, rodamientos, rótulas, soportes, alta calidad",
+    },
+  ],
+});
+
 const productos = [
   { texto: "Arandelas para manguitos(MB)", imagen: "Agricola1.png" },
   { texto: "Manguitos para rodamientos", imagen: "Agricola2.png" },
