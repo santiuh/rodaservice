@@ -98,6 +98,27 @@
           ></svgo-Sec3_3>
         </li>
         <li class="glide__slide">
+          <svgo-Sec3_5
+            class="lg:!w-56 lg:!h-28 !w-full !h-40 rounded-lg shadow-xl p-3"
+          ></svgo-Sec3_5>
+        </li>
+        <li class="glide__slide">
+          <NuxtImg
+            class="lg:!w-56 lg:!h-28 !w-full !h-40 rounded-lg shadow-xl p-3"
+            src="/svg/Sec3_24.svg"
+          ></NuxtImg>
+        </li>
+        <li class="glide__slide">
+          <svgo-Sec3_21
+            class="lg:!w-56 lg:!h-28 !w-full !h-40 rounded-lg shadow-xl p-3"
+          ></svgo-Sec3_21>
+        </li>
+        <li class="glide__slide">
+          <svgo-Sec3_22
+            class="lg:!w-56 lg:!h-28 !w-full !h-40 rounded-lg shadow-xl p-3"
+          ></svgo-Sec3_22>
+        </li>
+        <li class="glide__slide">
           <svgo-Sec3_7
             class="lg:!w-56 lg:!h-28 !w-full !h-40 rounded-lg shadow-xl p-3"
           ></svgo-Sec3_7>
