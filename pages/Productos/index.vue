@@ -12,7 +12,7 @@
 </template>
 <script setup>
 useSeoMeta({
-  title: "Productos - Roda",
+  title: "Productos",
   meta: [
     {
       name: "description",

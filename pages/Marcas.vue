@@ -152,7 +152,7 @@
 const selectedMarcaId = ref(0);
 
 useHead({
-  title: "Marcas - Roda Service",
+  title: "Marcas",
   meta: [
     {
       name: "description",
@@ -165,7 +165,7 @@ useHead({
         "marcas, DBH, ETMA, FERSA, HCH, IKO, KOYO, KUGELL, LOCTITE, MBS, NACHI, NSK, NTN, PESARO, ROLLWAY, VAR-NTN, Roda Service, rodamientos, autopartes",
     },
     { name: "author", content: "Roda Service" },
-    { property: "og:title", content: "Marcas - Roda Service" },
+    { property: "og:title", content: "Marcas" },
     {
       property: "og:description",
       content: "Descubre las marcas que distribuimos en Roda Service.",
