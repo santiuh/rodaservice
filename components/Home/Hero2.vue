@@ -3,7 +3,7 @@
     class="flex flex-col bg-[url('img/Hero/Hero2.png')] bg-cover bg-no-repeat justify-end bg-[center_right_60%] lg:bg-center"
   >
     <div
-      class="max-w-[1440px] px-9 w-full justify-end lg:justify-center backdrop-blur-sm lg:backdrop-blur-0 h-full lg:h-1/2 self-center flex flex-col text-primary text-start gap-7 lg:gap-10 pb-28 lg:backdrop-brightness-100"
+      class="max-w-[1440px] px-4 lg:px-9 w-full justify-end lg:justify-center backdrop-blur-sm lg:backdrop-blur-0 h-full lg:h-1/2 self-center flex flex-col text-primary text-start gap-7 lg:gap-10 pb-28 lg:backdrop-brightness-100"
     >
       <div class="flex flex-col text-4xl lg:text-7xl font-extrabold">
         <p>Compromiso y</p>

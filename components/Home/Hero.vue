@@ -3,13 +3,13 @@
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
         <li class="glide__slide">
-          <HomeHero1 class="h-[90vh] lg:h-[90vh]"></HomeHero1>
+          <HomeHero1 class="h-screen lg:h-[90vh]"></HomeHero1>
         </li>
         <li class="glide__slide">
-          <HomeHero2 class="h-[90vh] lg:h-[90vh]"></HomeHero2>
+          <HomeHero2 class="h-screen lg:h-[90vh]"></HomeHero2>
         </li>
         <li class="glide__slide">
-          <HomeHero3 class="h-[90vh] lg:h-[90vh]"></HomeHero3>
+          <HomeHero3 class="h-screen lg:h-[90vh]"></HomeHero3>
         </li>
       </ul>
     </div>
@@ -34,6 +34,7 @@ onMounted(() => {
     perView: 1,
     autoplay: 4000,
     hoverpause: false,
+    gap: 0,
   });
   glideInstance.mount();
 });
