@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col bg-[url('img/Hero/Hero3Mobile.png')] lg:bg-[url('img/Hero/Hero3.png')] bg-cover bg-no-repeat bg-[center_right_60%] lg:bg-center"
+    class="flex flex-col bg-[url('img/Hero/Hero3Mobile.png')] lg:bg-[url('img/Hero/Hero3.png')] bg-cover bg-no-repeat bg-bottom lg:bg-bottom"
   >
     <div
       class="max-w-[1440px] px-5 lg:px-9 w-full pt-24 justify-start lg:justify-center h-full self-center flex flex-col text-primary text-start gap-10"
