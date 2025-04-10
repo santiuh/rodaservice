@@ -1,11 +1,11 @@
 <template>
   <div
-    class="flex flex-col bg-[url('img/Hero/Hero3Mobile.png')] lg:bg-[url('img/Hero/Hero3.png')] bg-cover bg-no-repeat bg-bottom lg:bg-bottom"
+    class="flex flex-col bg-[url('img/Hero/Hero3Mobile.png')] lg:bg-[url('img/Hero/Hero3.png')] bg-cover bg-no-repeat bg-bottom lg:bg-center"
   >
     <div
       class="max-w-[1440px] px-5 lg:px-9 w-full pt-24 justify-start lg:justify-center h-full self-center flex flex-col text-primary text-start gap-10"
     >
-      <div class="flex flex-col text-5xl font-extrabold">
+      <div class="flex flex-col text-4xl font-extrabold">
         <p>Una empresa familiar que</p>
         <p>acompaña tu crecimiento</p>
       </div>

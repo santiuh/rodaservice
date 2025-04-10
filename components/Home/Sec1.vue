@@ -1,7 +1,7 @@
 <template>
   <div class="flex place-content-center">
     <div
-      class="grid grid-cols-2 lg:grid-cols-4 py-16 justify-center max-w-[1440px] gap-5 lg:gap-12"
+      class="grid grid-cols-2 lg:grid-cols-4 py-16 justify-center max-w-[1440px] gap-5 lg:gap-0"
     >
       <div
         class="flex flex-col lg:text-2xl font-medium text-center items-center"
