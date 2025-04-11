@@ -95,7 +95,6 @@
               <VButton
                 titulo="Acceso Clientes"
                 class="!bg-primary !text-white !text-xl border-primary border-2"
-                @click=""
               ></VButton>
             </NuxtLink>
 
@@ -108,11 +107,19 @@
         </div>
       </div>
       <div class="flex lg:hidden flex-col lg:flex-row gap-3 items-center">
+        <NuxtLink
+          class="!w-2/3"
+          target="_blank"
+          to="https://catalogo.rodaservice.com.ar/"
+        >
+          <VButton
+            titulo="Acceso Clientes"
+            class="!bg-primary !text-white !justify-center"
+          ></VButton>
+        </NuxtLink>
+
         <VButton
-          titulo="Acceso Clientes"
-          class="!bg-primary !text-white !w-2/3 !justify-center"
-        ></VButton>
-        <VButton
+          @click="openWindow()"
           titulo="Solicitar Manual&nbsp;de&nbsp;uso"
           class="!bg-white !border-2 !border-primary !w-2/3 !justify-center"
         ></VButton>

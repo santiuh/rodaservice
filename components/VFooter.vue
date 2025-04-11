@@ -43,12 +43,12 @@
           <NuxtLink
             to="https://www.linkedin.com/company/86398638/admin/page-posts/published/"
             target="_blank"
-            ><svgo-fb class="!h-7 !w-7"></svgo-fb
+            ><svgo-li class="!h-7 !w-7"></svgo-li
           ></NuxtLink>
           <NuxtLink
             to="https://www.facebook.com/rodaservice/?locale=es_LA"
             target="_blank"
-            ><svgo-li class="!h-7 !w-7"></svgo-li
+            ><svgo-fb class="!h-7 !w-7"></svgo-fb
           ></NuxtLink>
         </div>
       </div>
